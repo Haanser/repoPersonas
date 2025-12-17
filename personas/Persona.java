@@ -8,8 +8,8 @@ public class Persona {
     private String apellidos;
     private int edad;
 
-    static final int MAYORIA_EDAD = 12;
-    static final int JUBILACION_EDAD = 70;
+    static final int MAYORIA_EDAD = 18;
+    static final int JUBILACION_EDAD = 65;
 
     public Persona(String dni, String nombre, String apellidos, int edad) {
         this.dni = dni;
